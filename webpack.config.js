@@ -3,7 +3,7 @@ var webpack = require('webpack')
 
 module.exports = {
 	context : __dirname + '/src',
-	entry: [ "./button1.js","./button2.js","./css/style.css"],
+	entry: [ "./js/button1.js","./js/button2.js","./css/style.css"],
 	output: {
 			filename: 'bundle.js',
 			path : __dirname + '/dist'
